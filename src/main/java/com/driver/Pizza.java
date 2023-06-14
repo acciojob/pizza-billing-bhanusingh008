@@ -57,7 +57,7 @@ public class Pizza {
         // your code goes here
         if(!this.is_takeaway) {
             this.price += 20;
-            this.bill += "Paperbag Added: 20 \n";
+            this.bill += "Paperbag Added: 20\n";
             this.is_takeaway = true;
         }
     }
