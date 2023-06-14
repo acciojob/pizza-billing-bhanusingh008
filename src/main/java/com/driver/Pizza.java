@@ -31,7 +31,7 @@ public class Pizza {
 
     public void addExtraCheese(){
         // your code goes here
-        if(!this.is_extra_topping){
+        if(!this.is_extra_cheese){
             this.price += 80;
             this.bill += "Extra Cheese Added: 80 \n";
             this.is_extra_cheese = true;
