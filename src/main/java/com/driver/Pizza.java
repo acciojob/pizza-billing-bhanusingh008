@@ -22,7 +22,7 @@ public class Pizza {
         }
         this.is_extra_cheese = false;
         this.is_extra_topping = false;
-        this.bill = "\nBase Price Of The Pizza: "+this.price+"\n";
+        this.bill = "Base Price Of The Pizza: "+this.price+"\n";
     }
 
     public int getPrice(){
@@ -64,6 +64,6 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        return this.bill+"Total Price: "+this.price;
+        return this.bill+"Total Price: "+this.price+"\n";
     }
 }
